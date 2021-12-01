@@ -1,7 +1,7 @@
 <template>
 
-
-    <section class="container-fluid px-0 film-container">
+    <!-- Hero -->
+    <section class="container-fluid px-0">
         <section class="container-fluid jumbotron">
             <div class="container">
                 <h1 class="text-uppercase pt-5">Welcome to <br>PS Theater</h1>
@@ -11,7 +11,14 @@
                 </button>
             </div>
         </section>
-        
+        <!-- Now Sharing -->
+        <section class="container-fluid px-0 p-3 sharing">
+            <section class="container">
+                <h2 class="share-title pt-5"><strong>Now</strong> Sharing</h2>
+                <p class="fw-light">Search a film and enjoy.</p>
+            </section>
+        </section>
+        <!-- Films -->
         <div class="media-container p-5 d-flex flex-wrap w-100">
             <div class="films-box w-100 d-flex flex-wrap">
 
@@ -93,9 +100,12 @@ export default {
     
 }
 
-.film-container {
+.media-container, .sharing {
    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    // background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
+    .share-title {
+        color: white;
+    }
 
 </style>

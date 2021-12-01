@@ -35,7 +35,7 @@ export default {
 <style scoped lang="scss">
 header {
     background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    // background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
     .ps-logo {
        width: 200px;
