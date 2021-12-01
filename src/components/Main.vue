@@ -87,7 +87,6 @@ export default {
 .singlecard {
     width: calc(100% / 5);
     min-height: 250px;
-    cursor: pointer;
     overflow: hidden;
     
     
