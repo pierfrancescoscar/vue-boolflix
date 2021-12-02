@@ -4,6 +4,8 @@
     <Header @search="result" />
     <!-- Main Content - Cards -->
     <Main :films="filmList" :series="seriesList" />
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 
@@ -11,12 +13,14 @@
 import axios from 'axios';
 import Header from '@/components/Header.vue';
 import Main from '@/components/Main.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Main,
+    Footer,
   },
   data() {
     return {

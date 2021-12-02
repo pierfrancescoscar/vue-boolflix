@@ -39,6 +39,7 @@ header {
 }
     .ps-logo {
        width: 200px;
+       cursor: pointer;
     }
     .customInput {
         border: solid 2px white;

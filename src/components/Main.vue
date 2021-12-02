@@ -70,7 +70,7 @@ export default {
 <style scoped lang="scss">
 
 .jumbotron {
-    background-image: url('../assets/ps-jumbotron.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../assets/ps-jumbotron.png');
     background-size: cover;
 }
     h1 {
@@ -107,5 +107,6 @@ export default {
     .share-title {
         color: white;
     }
+
 
 </style>
